@@ -2,7 +2,7 @@
 
 package base64;
 {
-  $base64::VERSION = 'v0.0.1';
+  $base64::VERSION = 'v0.0.2';
 }
 
 # ABSTRACT: Commandline app for base64 stuff
@@ -18,7 +18,7 @@ base64 - Commandline app for base64 stuff
 
 =head1 VERSION
 
-version v0.0.1
+version v0.0.2
 
 =head1 AUTHOR
 

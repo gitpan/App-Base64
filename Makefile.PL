@@ -27,7 +27,7 @@ my %WriteMakefileArgs = (
     'App::Cmd::Setup' => '0',
     'MIME::Base64' => '0'
   },
-  'VERSION' => 'v0.0.1',
+  'VERSION' => 'v0.0.2',
   'test' => {
     'TESTS' => 't/*.t'
   }
