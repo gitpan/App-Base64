@@ -16,4 +16,4 @@ name: App-Base64
 requires:
   App::Cmd::Setup: 0
   MIME::Base64: 0
-version: v0.0.2
+version: v0.0.3
