@@ -12,6 +12,7 @@ my %WriteMakefileArgs = (
   'ABSTRACT' => 'Commandline app for base64 stuff',
   'AUTHOR' => 'Glenn Fowler <cebjyre@cpan.org>',
   'BUILD_REQUIRES' => {
+    'Test::Cmd' => '0',
     'Test::More' => '0'
   },
   'CONFIGURE_REQUIRES' => {
@@ -27,7 +28,7 @@ my %WriteMakefileArgs = (
     'App::Cmd::Setup' => '0',
     'MIME::Base64' => '0'
   },
-  'VERSION' => 'v0.0.3',
+  'VERSION' => 'v0.0.4',
   'test' => {
     'TESTS' => 't/*.t'
   }

@@ -2,7 +2,7 @@ use strict;
 use warnings;
 package App::Base64;
 {
-  $App::Base64::VERSION = 'v0.0.3';
+  $App::Base64::VERSION = 'v0.0.4';
 }
 
 # ABSTRACT: Commandline app for base64 stuff
@@ -20,7 +20,7 @@ App::Base64 - Commandline app for base64 stuff
 
 =head1 VERSION
 
-version v0.0.3
+version v0.0.4
 
 =head1 AUTHOR
 

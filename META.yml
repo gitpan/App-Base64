@@ -3,6 +3,7 @@ abstract: 'Commandline app for base64 stuff'
 author:
   - 'Glenn Fowler <cebjyre@cpan.org>'
 build_requires:
+  Test::Cmd: 0
   Test::More: 0
 configure_requires:
   ExtUtils::MakeMaker: 6.30
@@ -16,4 +17,4 @@ name: App-Base64
 requires:
   App::Cmd::Setup: 0
   MIME::Base64: 0
-version: v0.0.3
+version: v0.0.4
