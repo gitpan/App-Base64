@@ -3,7 +3,7 @@ use warnings;
 
 package App::Base64::Command::decode;
 {
-  $App::Base64::Command::decode::VERSION = 'v0.0.4';
+  $App::Base64::Command::decode::VERSION = 'v0.1.0';
 }
 
 # ABSTRACT: Handle the decoding side of Base64
@@ -20,6 +20,8 @@ sub execute {
 	}
 }
 
+1;
+
 __END__
 =pod
 
@@ -29,7 +31,7 @@ App::Base64::Command::decode - Handle the decoding side of Base64
 
 =head1 VERSION
 
-version v0.0.4
+version v0.1.0
 
 =head1 AUTHOR
 

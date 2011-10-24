@@ -8,7 +8,7 @@ build_requires:
 configure_requires:
   ExtUtils::MakeMaker: 6.30
 dynamic_config: 0
-generated_by: 'Dist::Zilla version 4.200015, CPAN::Meta::Converter version 2.112150'
+generated_by: 'Dist::Zilla version 4.300002, CPAN::Meta::Converter version 2.112150'
 license: perl
 meta-spec:
   url: http://module-build.sourceforge.net/META-spec-v1.4.html
@@ -17,4 +17,6 @@ name: App-Base64
 requires:
   App::Cmd::Setup: 0
   MIME::Base64: 0
-version: v0.0.4
+  strict: 0
+  warnings: 0
+version: v0.1.0
